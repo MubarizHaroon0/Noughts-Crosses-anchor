@@ -1,0 +1,18 @@
+[toolchain]
+
+[features]
+resolution = true
+skip-lint = false
+
+[programs.localnet]
+tic_tac_toe = "J4keZe4ew164YgrqkRNZzb7AJRLZpkFPpoCGu1ZiTEht"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "localnet"
+wallet = "/home/mubariz/Documents/SolanaDev/PayFees.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
