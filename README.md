@@ -15,9 +15,6 @@ anchor build
 ```
 Make Sure the Local Cluster is running
 ```console
-anchor deploy 
-```
-```console
 solana-test-validator
 ```
 ```console
